@@ -13,7 +13,7 @@
                 font-size: 1.05em;
             }
         </style>
-        
+
         <!-- load angular via CDN -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
         <script src="app.js"></script>
@@ -37,10 +37,17 @@
         <div class="container">
 
             <div ng-controller="mainController">
-            
-                
+
+              <h1>{{ name }}</h1>
+
             </div>
-            
+
+            <div ng-controller="secondController">
+
+              <h3>{{ name }}</h3>
+
+            </div>
+
 		</div>
 
     </body>
