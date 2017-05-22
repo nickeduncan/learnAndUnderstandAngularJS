@@ -13,9 +13,10 @@
                 font-size: 1.05em;
             }
         </style>
-        
+
         <!-- load angular via CDN -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
         <script src="app.js"></script>
     </head>
     <body>
@@ -29,6 +30,8 @@
 
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+
+          <li><a href="#"><i class="fa fa-home"></i> Second</a></li>
 				</ul>
 			</div>
 			</nav>
@@ -37,7 +40,7 @@
         <div class="container">
 
             <div ng-view></div>
-            
+
 		</div>
 
     </body>
